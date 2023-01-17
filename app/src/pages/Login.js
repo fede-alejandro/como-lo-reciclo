@@ -142,8 +142,6 @@ function Login() {
                     </div>
                     {spoty && spoty.html &&
                         <div  dangerouslySetInnerHTML={{ __html: spoty.html }}></div>}
-                    {/* <iframe width="100%" height="152" title="Spotify Embed: My Path to Spotify: Women in Engineering "  frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" src={spoty} /> */}
-                    {/* <a href="https://open.spotify.com/embed/show/0SgWmwew0jSG4WC9DM38zu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" target='blank'> <img src={spotify} alt='spotify' className='h-12 m-4 rounded-lg bg-slate-600 border-white border-2' /> </a> */}
                 </div>
             </div>
 

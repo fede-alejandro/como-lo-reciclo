@@ -26,7 +26,7 @@ function Home() {
 
         const intervalId = setInterval(() => {
                 refreshPosts()
-        }, 5000)
+        }, 4000)
 
         return ()=> clearInterval(intervalId)
     }, [])
