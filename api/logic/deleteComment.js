@@ -1,5 +1,5 @@
 const { errors: { LengthError, NotFoundError } } = require('com')
-const { User, Post} = require('../../../../..');
+const { User, Post} = require('../models');
 /**
  * Delete comment from a post
  * 

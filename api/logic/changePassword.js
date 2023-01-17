@@ -1,4 +1,4 @@
-const { User } = require('../../../../..')
+const { User } = require('../models')
 const { compare } = require('bcryptjs')
 const { hash } = require('bcryptjs')
 const { errors: { LengthError, AuthError, NotFoundError } } = require('com')

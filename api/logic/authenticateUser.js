@@ -2,7 +2,7 @@ const {
     errors: { FormatError, LengthError, NotFoundError, AuthError },
     regex: { IS_EMAIL_REGEX, HAS_SPACES_REGEX }
 } = require('com')
-const { User } = require('../../../../..')
+const { User } = require('../models')
 const { compare } = require('bcryptjs')
 /**
  * Authenticates a user

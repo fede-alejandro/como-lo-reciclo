@@ -1,5 +1,5 @@
 const { errors: { LengthError, NotFoundError } } = require('com')
-const { User, Post, Comment, Chat } = require('../../../../..')
+const { User, Post, Comment, Chat } = require('../models')
 /**
  * Create a comment on a post
  * 

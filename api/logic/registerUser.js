@@ -1,8 +1,8 @@
 const {
     errors: { FormatError, LengthError, ConflictError, UnexpectedError },
     regex: { IS_EMAIL_REGEX, HAS_SPACES_REGEX, IS_ALPHABETICAL_REGEX }
-} = require('../../com')
-const { User } = require('../../../../..')
+} = require('com')
+const { User } = require('../models')
 const { hash } = require('bcryptjs')
 /**
  * Register a user

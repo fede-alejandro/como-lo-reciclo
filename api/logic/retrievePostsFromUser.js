@@ -1,5 +1,5 @@
 const { errors: { LengthError } } = require('com')
-const { User, Post } = require('../../../../..')
+const { User, Post } = require('../models')
 /**
  * Retrieves all posts from a specific user
  * 

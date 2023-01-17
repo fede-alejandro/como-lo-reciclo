@@ -1,7 +1,7 @@
 const {
     errors: { LengthError, FormatError, NotFoundError },
     regex: { IS_EMAIL_REGEX } } = require('com')
-const { User } = require('../../../../..')
+const { User } = require('../models')
 
 function changeEmail(userId, newEmail) {
     if (typeof userId !== 'string') throw new TypeError('userId is not a string')
